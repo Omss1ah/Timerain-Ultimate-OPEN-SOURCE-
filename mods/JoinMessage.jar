@@ -1,8 +1,2 @@
-import net.minecraft.client.Minecraft;
-import net.minecraft.util.text.TextComponentString;
-
-public class JoinMessage {
-    public static void main(String[] args) {
-        Minecraft.getMinecraft().ingameGUI.getChatGUI().printChatMessage(new TextComponentString("Thanks for using Xavier's modified Pack!"));
-    }
-}
+# Congrats, you found an useless .jar file.
+# No the modpack is not an Spyware, you dummy.

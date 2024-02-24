@@ -1,0 +1,183 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:timerain.png",
+            "posX" : -137,
+            "posY" : 45,
+            "width" : 275,
+            "height" : 75,
+            "imageWidth" : 3513,
+            "imageHeight" : 925,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "normalTextColor" : 16711680,
+            "hoverTextColor" :  16711680,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "normalTextColor" : 16711680,
+            "hoverTextColor" :  16711680,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "normalTextColor" : 16711680,
+            "hoverTextColor" :  16711680,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "normalTextColor" : 16711680,
+            "hoverTextColor" :  16711680,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "normalTextColor" : 16711680,
+            "hoverTextColor" :  16711680,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "youtube":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "mainmenu:yt1.png",
+            "imageWidth" : 225,
+            "imageHeight" : 225,            
+            "action" : 
+            {
+                "type" : "openLink"
+                ,"link" : "https://www.youtube.com/watch?v=nCrHkHFaFs4&list=PL1J-6JOckZtFGOu5sYVS8lNHTDeb0cKpR"
+            }
+        },
+        
+        "discord":
+        {
+            "text" : "",
+            "posX" : 105,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "mainmenu:dc.png",
+            "imageWidth" : 225,
+            "imageHeight" : 225,
+            "action" :
+            {
+                "type" : "openLink"
+                ,"link" : "https://discord.com/invite/5KJMywfKhb"
+            }
+        }
+
+    },
+
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Mainmenu by Fr0z3n",
+            "posX" : -102,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -50,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 100,
+            "posY" : 120,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "by Xavier"
+        },
+        
+		"background": {
+			"image": "",
+			"slideshow": {
+				"images": [
+					"mainmenu:images/0.png",
+					"mainmenu:images/1.png",
+					"mainmenu:images/2.png",
+                    "mainmenu:images/3.png"
+
+				],
+				"displayDuration": 40,
+				"fadeDuration": 60,
+				"mode":"fill"
+			}
+            
+		}
+    }
+}
